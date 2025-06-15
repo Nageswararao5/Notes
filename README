@@ -1,0 +1,14 @@
+# Notes API 📝
+
+A RESTful API built with Node.js and Express.js for managing text-based notes. Implements CRUD operations with in-memory storage.
+
+---
+
+## Features
+
+- **5 Endpoints** for full note management:
+  - `GET /notes` - Retrieve all notes
+  - `GET /notes/:id` - Get a single note by ID
+  - `POST /notes` - Create a new note
+  - `PUT /notes/:id` - Update an existing note
+  - `DELETE /notes/:id` - Delete a note
